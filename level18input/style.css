@@ -1,0 +1,22 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #212831;
+}
+.input {
+  border-radius: 50px 5px 50px 5px ;
+  width: 180px;
+  height: 30px;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-family: inherit;
+  outline: none;
+  font-size: 17px;
+  text-align: center;
+  border-bottom: 3px solid #00adb5;
+}
+

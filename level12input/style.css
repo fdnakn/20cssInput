@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #212831;
+}
+input {
+  display: inline-block;
+  width: 196px;
+  padding: 10px 20px;
+  border: 5px solid #00adb5;
+  border-radius: 11px;
+  font-size: 20px;
+  color: #00adb5;
+  letter-spacing: 1px;
+  background: transparent;
+  box-shadow: 0 0 9px 4px rgba(0, 0, 0, 0.15) inset,
+    -1px 4px 8px -1px rgba(0, 0, 0, 0.49) inset;
+  transition: .3s;
+  transform: rotateX(-15deg) rotateY(-30deg);
+}
+input:hover {
+  transform: rotateX(-15deg) rotateY(-25deg);
+}
+
+input:focus {
+  outline: none;
+}
